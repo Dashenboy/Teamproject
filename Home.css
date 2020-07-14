@@ -1,0 +1,27 @@
+.header {
+    overflow: hidden;
+    background-color: #00000070;
+    padding: 20px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header a {
+    float: left;
+    color: rgb(252, 252, 252);
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a.hover {
+    background-color:#d4d2d2dd;
+    color: #d4d2d2;
+}
+.active{
+    background-color: #d4d2d2;
+    color: white;

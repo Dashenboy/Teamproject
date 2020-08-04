@@ -1,0 +1,74 @@
+.header {
+    overflow: hidden;
+    background-color: #00000070;
+    padding: 20px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header a {
+    float: left;
+    color: rgb(252, 252, 252);
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a.hover {
+    background-color:#d4d2d2dd;
+    color: #D4D2D2;
+}
+.active{
+    background-color: #D4D2D2;
+    color: white;
+}
+.header {
+    float:both;
+}
+.backimage {
+    background-image: url(https://i.pinimg.com/originals/46/fd/a4/46fda4d66e9515586c175db9f8119531.jpg)
+}
+.about-me {
+    color: rgb(252, 252, 252);
+   word-wrap: break-word;
+    border: 10px solid #00000070;
+    background-color: #00000070;  
+    background-clip:border-box;
+    margin: auto;
+    width: 600px;
+    height: 350x;
+    line-height: 25px;
+    float: both;
+}
+.aboutme-picture {
+    text-align: center;
+    color:  rgb(252, 252, 252);
+    background-color: #00000070 ;
+    border: 10px solid #00000070;
+    outline: 5px black;
+}
+.imagelooks {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #00000070;
+   color: #00000070;
+   text-align: center;
+   height: 5%;
+}
+.Details {
+    background-color: #00000070;
+    color: white;
+    text-align: center;
+    height: 200px;
+(469 kB)
